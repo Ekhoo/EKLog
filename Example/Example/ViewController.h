@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EKLog.h"
 
 @interface ViewController : UIViewController
 

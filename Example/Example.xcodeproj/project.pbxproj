@@ -21,6 +21,7 @@
 		BEBFA90E191ABFC2004B5DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBFA8F0191ABFC2004B5DBB /* UIKit.framework */; };
 		BEBFA916191ABFC2004B5DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEBFA914191ABFC2004B5DBB /* InfoPlist.strings */; };
 		BEBFA918191ABFC2004B5DBB /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFA917191ABFC2004B5DBB /* ExampleTests.m */; };
+		BEBFA924191AC03A004B5DBB /* EKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBFA923191AC03A004B5DBB /* EKLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BEBFA913191ABFC2004B5DBB /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BEBFA915191ABFC2004B5DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEBFA917191ABFC2004B5DBB /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		BEBFA922191AC03A004B5DBB /* EKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKLog.h; path = ../EKLog/EKLog.h; sourceTree = "<group>"; };
+		BEBFA923191AC03A004B5DBB /* EKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EKLog.m; path = ../EKLog/EKLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		BEBFA8E0191ABFC2004B5DBB = {
 			isa = PBXGroup;
 			children = (
+				BEBFA921191AC01A004B5DBB /* EKLog */,
 				BEBFA8F2191ABFC2004B5DBB /* Example */,
 				BEBFA911191ABFC2004B5DBB /* ExampleTests */,
 				BEBFA8EB191ABFC2004B5DBB /* Frameworks */,
@@ -150,6 +154,15 @@
 				BEBFA914191ABFC2004B5DBB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEBFA921191AC01A004B5DBB /* EKLog */ = {
+			isa = PBXGroup;
+			children = (
+				BEBFA922191AC03A004B5DBB /* EKLog.h */,
+				BEBFA923191AC03A004B5DBB /* EKLog.m */,
+			);
+			name = EKLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBFA924191AC03A004B5DBB /* EKLog.m in Sources */,
 				BEBFA903191ABFC2004B5DBB /* ViewController.m in Sources */,
 				BEBFA8FD191ABFC2004B5DBB /* AppDelegate.m in Sources */,
 				BEBFA8F9191ABFC2004B5DBB /* main.m in Sources */,
