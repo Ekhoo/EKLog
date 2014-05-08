@@ -21,9 +21,22 @@
 }
 
 - (void)example {
-    NSString *toto = @"toto";
+    /* Exemple 01 (retro compatibility) */
+    EKLog(@"foo");
     
-    EKLog(toto);
+    /* Exemple 02 (retro compatibility) */
+    EKLog(@"foo : %@", @"bar");
+    
+    /* Exemple 03 (retro compatibility) */
+    EKLog(@"foo : %d", 3);
+    
+    /* Exemple 04 (retro compatibility) */
+    NSString *bar = @"bar";
+    EKLog(@"foo : %@", bar);
+    
+    /* Exemple 05 New */
+    NSString *foo = @"foo";
+    EKLog(foo);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -23,7 +23,7 @@
         stringToDisplay = [[object description] UTF8String];
     }
     
-    fprintf(stderr, "%s => (%s:%d) : %s", function, [[[NSString stringWithUTF8String:file] lastPathComponent] UTF8String], line, stringToDisplay);
+    fprintf(stderr, "%s => (%s:%d) : %s\n", function, [[[NSString stringWithUTF8String:file] lastPathComponent] UTF8String], line, stringToDisplay);
 }
 
 @end
