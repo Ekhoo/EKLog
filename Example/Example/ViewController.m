@@ -37,6 +37,18 @@
     /* Exemple 05 New */
     NSString *foo = @"foo";
     EKLog(foo);
+    
+    /* Exemple 06 New */
+    NSArray *array = @[@"foo", @"bar"];
+    EKLog(array);
+    
+    /* Exemple 07 New */
+    NSDictionary *dictionary = @{@"foo" : @"bar"};
+    EKLog(dictionary);
+    
+    /* Exemple 08 New */
+    NSDate *currentDate = [NSDate date];
+    EKLog(currentDate);
 }
 
 - (void)didReceiveMemoryWarning {
