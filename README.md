@@ -7,7 +7,7 @@ How To Use It
 -------------
 
 ```objective-c
-/* Exemple 01 (retro compatibility) */
+    /* Exemple 01 (retro compatibility) */
     EKLog(@"foo");
     
     /* Exemple 02 (retro compatibility) */
