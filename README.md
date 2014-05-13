@@ -1,6 +1,8 @@
 EKLog
 =====
 
+[![Build Status](https://travis-ci.org/Ekhoo/EKLog.svg?branch=master)](https://travis-ci.org/Ekhoo/EKLog)
+
 A lightweight tool that fills some gaps from NSLog
 
 How To Use It
