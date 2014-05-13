@@ -7,6 +7,7 @@ How To Use It
 -------------
 
 ```objective-c
+- (void)example {
     /* Exemple 01 (retro compatibility) */
     EKLog(@"foo");
     
@@ -35,6 +36,7 @@ How To Use It
     /* Exemple 08 New */
     NSDate *currentDate = [NSDate date];
     EKLog(currentDate);
+}
 
 ```
 
